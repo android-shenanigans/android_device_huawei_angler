@@ -419,7 +419,6 @@ service qcamerasvr /vendor/bin/mm-qcamera-daemon
     user camera
     group camera system inet input graphics
     writepid /dev/cpuset/camera-daemo
-n/tasks
 
 service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
         -O/data/vendor/wifi/wpa/sockets \
